@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e7e2e2">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/image12"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#ffffff"
+        >
+        <Button
+            android:id="@+id/book"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:background="#ffffff"
+            android:drawableTop= "@drawable/jiezhongyuyue48"
+            android:text="接种预约"
+            android:textColor="#000000"
+            />
+
+        <Button
+            android:id="@+id/knowlage"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/yimiaozhishi48"
+            android:text="疫苗知识"
+            android:layout_marginLeft="85dp"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

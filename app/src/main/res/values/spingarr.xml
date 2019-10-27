@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="spingarr">
+        <item>地点</item>
+        <item>中北医院</item>
+        <item>尖草坪区</item>
+        <item>小东流</item>
+    </string-array>
+</resources>
